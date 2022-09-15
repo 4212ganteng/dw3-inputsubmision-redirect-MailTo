@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/contact.css">
+    <link rel="stylesheet" href="assets/main.css">
+
+    
+    <title>Contact</title>
+</head>
+<body>
+    <!-- ini navbar -->
+    <nav>
+  
+        <div class="nav-left">
+            <ul>
+                <li>
+                    <img src="assets/image/logo2.png" alt="logo dumbways">
+
+                </li>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <a href="/contact.html">Contact</a>
+        </div>
+    </nav>
+    <!-- ini konten -->
+    
+    <form action="">
+        <h2>GET IN TOUCH</h2>
+        <div class="">
+            <label for="name">Name</label>
+            <input height="100" type="text" id="name" required>
+         </div>
+        <div class="">
+            <label for="email">Email</label>
+            <input height="100" type="text" id="email" required>
+         </div>
+
+        <div class="">
+            <label for="hp">Phone Number</label>
+            <input height="100" type="text" id="hp" required>
+        </div>
+
+        <div class="">
+            <label for="input-object">Subject</label>
+           <select  id="input-object">
+                <option value="" > -- Select -- </option>
+                <option value="Frontend" >Frontend</option>
+                <option value="Backend">Backend</option>
+                <option value="Fullstack" >Fullstack</option>
+           </select>
+        </div>
+
+        <div class="">
+            <label for="komentar">Youre Message</label>
+            <textarea name="" id="komentar" cols="30" rows="10"></textarea>
+        </div>
+        <div class="button">
+            <button type="button" onclick="submitData()">Submit</button>
+        </div>
+         
+    </form>
+
+</div>
+
+<!-- js -->
+<script src="assets/js/contact.js"></script>
+</body>
+</html>
